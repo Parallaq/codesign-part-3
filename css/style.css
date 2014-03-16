@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	border-top: 10px solid #4d9543;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.footer {
+	clear: both;
+	color: white;
+	background-color: #333333;
+
+	margin-top: 250px;
+}
+
+.logo {
+	float: left;
+	display: block;
+	width: 214px;
+	height: 77px;
+	background-repeat: no-repeat;
+	background-image: url('../img/logo.png');
+}
+.header {
+	padding: 30px 0;
+	overflow: hidden;
+}
+.header div {
+	float: right;
+	margin-top: 15px;
+	padding-right: 20px;
+	border-right: 1px solid silver;
+}
+.header span {
+	text-align: right;
+	display: block;
+	font-size: 22px;
+	color: gray;
+}
+.header span.text {
+	color: #4d9543;
+	font-size: 18px;
+}
+
+/* Navigacia */
+.navigacia {
+	clear: both;
+	overflow: hidden;
+	margin: 0 auto 30px;
+	border-radius: 25px;
+	border: 1px solid rgba(0,0,0,0.5);
+	background: -webkit-linear-gradient(top, #4d9543, rgba(0,0,0,0.75));
+	background: -moz-linear-gradient(top, #4d9543, rgba(0,0,0,0.75));
+	background: -ms-linear-gradient(top, #4d9543, rgba(0,0,0,0.75));
+	background: -o-linear-gradient(top, #4d9543, rgba(0,0,0,0.75));
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.navigacia ul {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.navigacia ul li {
+	float: left;
+	display: block;
+}
+.navigacia ul li a {
+	display: block;
+	color: rgba(255,255,255,0.7);
+	padding: 13px 15px;
+	border-right: 1px dashed rgba(0,0,0,0.3);
+	text-decoration: none;
+}
+.navigacia ul .home {
+	width: 55px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-image: url('../img/home-bg.png');
+}
+.navigacia ul li a:hover {
+	color: white;
+	background-color: #4d9543;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.75), #4d9543);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.75), #4d9543);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.75), #4d9543);
+	background: -o-linear-gradient(top, rgba(0,0,0,0.75), #4d9543);
+}
+.navigacia form {
+	float: right;
+	margin: 7px 15px 0 0;
+}
+.navigacia form input {
+	color: white;
+	padding: 4px;
+	border-radius: 8px;
+	border: 1px solid rgba(0,0,0,0.75);
+	background-color: #4d9543;
+}
+.navigacia form input::-webkit-input-placeholder {
+	color: white;
+}
+.navigacia form button {
+	width: 25px;
+	cursor: pointer;
+	border: none;
+	text-indent: -9999px;
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../img/search.png');
+}
+
+
+
+
+
+
+
+
+
+
